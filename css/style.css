@@ -1762,7 +1762,6 @@ h1, h2, h3, h4,
     padding-right: 20px;
     font-weight: 400;
     color: #000000;
-    letter-spacing: 1px;
     text-transform: uppercase;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
@@ -3160,4 +3159,23 @@ textarea.form-control {
 }
 .text-justify{
   text-align: justify !important;
+}
+.nobat-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-txet{
+  color: #ffff;
+  background: #00000063;
+  padding: 10px;
+  border-radius: 10px;
+}
+@media (max-width:500px){
+  .footer-text{
+    text-align: right!important;
+  }
+  .img-dr{
+    text-align: center;
+  }
 }
