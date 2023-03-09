@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: shabnam;
-  src: url("../fonts/IRANSansWeb_UltraLight.woff") format("woff");
+  src: url("../fonts/shabnam.woff") format("woff");
 }
 :root {
   --blue: #007bff;
@@ -1733,14 +1733,14 @@ h1, h2, h3, h4,
     .topper .text .time span:last-child {
       font-weight: 600;
       color: #46b7de; }
-
 .ftco-navbar-light {
+  direction: rtl;
   background: transparent !important;
   z-index: 3;
   padding: 0; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #46b7de !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
@@ -3149,3 +3149,13 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+/* ----------- Custom ---------------*/
+.address{
+  width: 135%;
+  font-size: 15px !important;
+}
+#ftco-nav{
+  text-align: right;
+}
