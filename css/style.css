@@ -2639,7 +2639,6 @@ textarea.form-control {
   display: block;
   margin-bottom: 0;
   text-transform: uppercase;
-  letter-spacing: 2px;
   color: #000000;
   position: relative; }
 
@@ -3158,4 +3157,7 @@ textarea.form-control {
 }
 #ftco-nav{
   text-align: right ;
+}
+.text-justify{
+  text-align: justify !important;
 }
