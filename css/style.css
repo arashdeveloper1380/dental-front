@@ -2467,7 +2467,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  /*padding: 7em 0;*/
   position: relative; }
 
 .ftco-no-pt {
@@ -2891,7 +2891,7 @@ textarea.form-control {
 .block-21 .text {
   width: calc(100% - 100px); }
   .block-21 .text .heading {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400; }
     .block-21 .text .heading a {
       color: #000000; }
@@ -2926,7 +2926,7 @@ textarea.form-control {
   padding: 0;
   margin: 0; }
   .comment-list .children {
-    padding: 50px 0 0 40px;
+    padding-top:10px ;
     margin: 0;
     float: left;
     width: 100%; }
